@@ -12,7 +12,8 @@ function nameToAttributes(drivers) {
   return newList;
 }
 
-function attributesToPhrase(drivers)
+function attributesToPhrase(drivers) {
   const newSentence = drivers.map(function(driver) {
     return
   }
+}
