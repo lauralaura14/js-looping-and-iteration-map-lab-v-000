@@ -13,8 +13,7 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(drivers) {
-  const newSentence = drivers.map(function(driver) {
+  drivers.map(function(driver) {
     return `${driver.name} is from ${driver.hometown}`;
   })
-  const newSentence;
 }
