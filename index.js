@@ -5,9 +5,9 @@ function lowerCaseDrivers(drivers) {
   return newArrayDrivers;
 }
 
-function nameToAttributes(drivers){
-    const newNames = drivers.map(function(name){
-        return Object.assign({}, {firstName: name.split(" ")[0], lastName: name.split(" ")[1]})
-    })
-    return newNames;
-};
+function nameToAttributes(drivers) {
+  const newList = drivers.map(function(driver) {
+    return Object.assign({}, {firstName: name.split(" ")[0], lastName: name.split(" ")[1]});
+  })
+  return newList;
+}
